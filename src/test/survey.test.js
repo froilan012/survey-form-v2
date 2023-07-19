@@ -22,8 +22,4 @@ describe("Survey Model", function(){
 
         expect(result).to.equal("Error! Captcha input doesn't matched.");
     });
-
-    it('add intentional failed test', function() {
-        expect(true).to.equal(false);
-    });
 });
