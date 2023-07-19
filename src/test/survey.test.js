@@ -11,7 +11,7 @@ describe("Survey Model", function(){
         let surveyModel = new SurveyModel();
         let captcha = surveyModel.captcha;
         let result = surveyModel.verifyCaptchaInput(captcha);
-        console.log('add testing123');
+        console.log('add testing1234');
 
         expect(result).to.equal("Success! Captcha input matched.");
     });
@@ -22,4 +22,8 @@ describe("Survey Model", function(){
 
         expect(result).to.equal("Error! Captcha input doesn't matched.");
     });
+
+    it('Add intentional failed test', function() {
+        expect(true).to.equal(false);
+    })
 });
