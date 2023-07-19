@@ -11,7 +11,7 @@ describe("Survey Model", function(){
         let surveyModel = new SurveyModel();
         let captcha = surveyModel.captcha;
         let result = surveyModel.verifyCaptchaInput(captcha);
-        console.log('testing123456');
+        console.log('testing1234567');
 
         expect(result).to.equal("Success! Captcha input matched.");
     });
